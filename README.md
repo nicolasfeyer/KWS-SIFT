@@ -15,6 +15,7 @@ This project proposes a keywords spotting system using SIFT descriptors. It uses
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Datasets](#datasets)
 - [Authors](#authors)
 - [References](#references)
 
@@ -117,6 +118,13 @@ python kws-sift.py generate -cn "washington" -i dataset/washington -ss 5 -bs 5 1
 python kws-sift.py query -cn "washington" -te dataset/washington/templates -gt dataset/washington/gt -e -st "only-from-corpus"
 ```
 
+## Datasets
+
+Here are the adapted to KWS datasets:
+
+- George Washington Letters (GW20) ([download](https://drive.google.com/file/d/1v1j4whEwmUdO_yauwLL_qCS2GV_T7y5n/view))
+- Pinkas Dataset (PK)[[2]](#2) ([download](https://drive.google.com/file/d/1fYvzBTisD6XmUQJmqawg7sGeNJd5K9NO/view))
+
 ## Authors
 
 Nicolas Feyer
@@ -132,6 +140,5 @@ Pages 545-555,
 ISSN 0031-3203,
 https://doi.org/10.1016/j.patcog.2014.08.021.
 (https://www.sciencedirect.com/science/article/pii/S0031320314003355)
-<!---Abstract: In this paper we present an efficient segmentation-free word spotting method, applied in the context of historical document collections, that follows the query-by-example paradigm. We use a patch-based framework where local patches are described by a bag-of-visual-words model powered by SIFT descriptors. By projecting the patch descriptors to a topic space with the latent semantic analysis technique and compressing the descriptors with the product quantization method, we are able to efficiently index the document information both in terms of memory and time. The proposed method is evaluated using four different collections of historical documents achieving good performances on both handwritten and typewritten scenarios. The yielded performances outperform the recent state-of-the-art keyword spotting approaches.
-Keywords: Historical documents; Keyword spotting; Segmentation-free; Dense SIFT features; Latent semantic analysis; Product quantization
--->
+<a id="2">[2]</a>
+Kurar Barakat, B., El-Sana, J., & Rabaev, I. (2019). The Pinkas Dataset. 2019 International Conference on Document Analysis and Recognition (ICDAR), 732–737. https://doi.org/10.1109/ICDAR.2019.00122
