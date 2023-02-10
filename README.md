@@ -140,5 +140,6 @@ Pages 545-555,
 ISSN 0031-3203,
 https://doi.org/10.1016/j.patcog.2014.08.021.
 (https://www.sciencedirect.com/science/article/pii/S0031320314003355)
+</br>
 <a id="2">[2]</a>
 Kurar Barakat, B., El-Sana, J., & Rabaev, I. (2019). The Pinkas Dataset. 2019 International Conference on Document Analysis and Recognition (ICDAR), 732–737. https://doi.org/10.1109/ICDAR.2019.00122
