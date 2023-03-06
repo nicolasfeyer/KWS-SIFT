@@ -115,7 +115,7 @@ python kws-sift.py generate -cn "washington" -i dataset/washington -ss 5 -bs 5 1
 ```
 
 ```console
-python kws-sift.py query -cn "washington" -te dataset/washington/templates -gt dataset/washington/gt -e -st "only-from-corpus"
+python kws-sift.py query -cn "washington" -te dataset/washington/templates -gt dataset/washington/gt -st "only-from-corpus"
 ```
 
 ## Datasets
